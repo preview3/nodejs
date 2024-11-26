@@ -98,7 +98,7 @@ module.exports = ENV_VAR;
 
 7, in package.js add there scripts
 
-````
+```
 "start": "node main.js",
 "dev": "nodemon main.js"
 ```
