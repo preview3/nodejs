@@ -1,0 +1,27 @@
+{
+  "name": "prev-nodejs",
+  "version": "1.0.0",
+  "description": "example of nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "Lalit Rajak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/preview3/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/preview3/nodejs/issues"
+  },
+  "homepage": "https://github.com/preview3/nodejs#readme"
+}
