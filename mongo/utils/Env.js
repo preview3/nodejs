@@ -1,7 +1,8 @@
-import dotenv from "dotenv";
-dotenv.config();
+require("dotenv").config();
 
-export const ENV_VAR = {
+const ENV_VAR = {
   DB_URI: process.env.DB_URI,
   PORT: process.env.PORT,
 };
+
+module.exports = ENV_VAR;
