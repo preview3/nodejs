@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node main.js"
+    "start": "node main.js",
+    "dev": "nodemon main.js"
   },
   "keywords": [],
   "author": "Lalit Rajak",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/preview3/nodejs/issues"
   },
-  "homepage": "https://github.com/preview3/nodejs#readme"
+  "homepage": "https://github.com/preview3/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
